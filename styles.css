@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+/* nav */
+.headted {
+  padding: 20px 18px;
+  background-color: rgb(206, 201, 201);
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.link {
+  padding: 5px 30px;
+  border-bottom: solid rgb(219, 215, 215);
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.idea {
+  color: rgb(119, 117, 117);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.ted {
+  font-size: 40px;
+  color: red;
+  font-weight: 200;
+  font-family: fantasy;
+}
+
+.link2 {
+  display: flex;
+}
+
+.link2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link2 ul li {
+  list-style-type: none;
+  margin: 10px 10px;
+
+}
+
+.link2 ul li a {
+  color: rgb(70, 68, 68);
+  font-weight: 650;
+  font-family: sans-serif;
+  font-size: 13.5px;
+
+}
+
+.btn {
+  padding: 5px 15px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  align-items: center;
+  height: 2.8rem;
+  margin: 5px;
+}
+
+.material-symbols-outlined {
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+/* Header */
+
+.header1 {
+  margin: 30px 11rem;
+}
+
+.science1 {
+  display: flex;
+  margin: 25px 0px;
+  align-items: center;
+
+}
+
+.red {
+  color: red;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.like {
+  color: gray;
+  font-size: 13px;
+}
+
+/* cards */
+
+.cards {
+  margin: 20px 0;
+  display: flex;
+}
+
+.card {
+  border-right: 1px solid rgb(203, 200, 200);
+  padding: 10px 15px;
+}
+
+.card img {
+  width: 275px;
+  height: 150px;
+}
+
+.card4 {
+  border: none;
+}
+
+/* discover */
+.discover {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 35px 8rem;
+  margin: 0px 0px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.discover h1 {
+  margin: 0 40px 0 0;
+}
+
+.btn2 {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: rgb(103, 101, 101);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 18px;
+  align-items: center;
+  border: none;
+}
+
+.btn3 {
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 18px;
+  background-color: rgb(163, 160, 160);
+  color: black;
+}
+
+.discover a {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* ted support */
+.tedsupport {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.tedsupport p {
+  color: gray;
+}
+
+.tedsupport img {
+  width: 800px;
+  height: 100px;
+}
+
+/* recommed */
+
+
+.recommendedvideo {
+  display: flex;
+}
+
+.recommended1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 1px solid rgb(221, 218, 218);
+  padding: 5px 10px;
+}
+
+.bordernone {
+  border: none;
+}
+
+/* tedcard */
+
+.tedcard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tedcard a {
+  color: black;
+  font-weight: 550;
+}
+
+.videoes img {
+  width: 310px;
+  height: 180px;
+}
+
+.videoes {
+  display: flex;
+  padding: 10px;
+}
+
+.videocard {
+  border-right: 1px solid rgb(216, 212, 212);
+  padding: 10px 13px;
+}
+
+.videocardnone {
+  border: none;
+}
+
+/* Unlock your greatest potential */
+.btn4 {
+  background-color: black;
+  font-size: 15px;
+  width: 8rem;
+}
+
+.unlock {
+  display: flex;
+}
+
+.unlock p {
+  color: 18gb(83, 82, 82);
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.unlock1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+}
