@@ -342,17 +342,21 @@ h4 {
 }
 
 /* trending */
-.trending {
-  padding: 10px;
-
+.trendcontainer {
+  display: flex;
 }
 
 .trendscard {
   display: flex;
   padding: 20px;
-  background-color: rgb(252, 250, 250);
+  background-color: rgb(246 246 246);
   margin: 10px;
   width: 40vw;
+}
+
+.trendscard h2 {
+  font-size: 1.4em;
+  font-weight: 600;
 }
 
 .trendscard .number {
@@ -366,4 +370,31 @@ h4 {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+/* idea */
+.ideacontainer {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  padding-top: 3rem;
+  margin-top: 30px;
+}
+
+.ideacontainer p {
+  font-size: 1.2em;
+
+}
+
+.ideaimg img {
+  width: 900px;
+}
+
+.btn5 {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 15px 30px;
+
 }
