@@ -6,6 +6,10 @@
 
 }
 
+img:hover {
+  cursor: pointer;
+}
+
 /* nav */
 .headted {
   padding: 20px 18px;
@@ -397,4 +401,70 @@ h4 {
   font-size: 16px;
   padding: 15px 30px;
 
+}
+
+/* countdown */
+.countdowncontainer {
+  display: flex;
+
+}
+
+.countdowncards {
+  width: 60%;
+}
+
+.countdown {
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+
+.countdowntdn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+}
+
+.countdowntdn .like {
+  font-size: 17px;
+}
+
+.countdowncard {
+  display: flex;
+}
+
+.countdowncard h1 {
+  font-size: 2.2em;
+}
+
+.countdowncard img {
+  width: 400px;
+  height: 250px;
+
+}
+
+/* productcontainer */
+.productcontainer {
+  display: flex;
+}
+
+.productcontainer img {
+  width: 300px;
+  height: 200px;
+}
+
+.productcard {
+  width: 25%;
+  border-right: 1px solid rgb(210, 206, 206);
+  margin-right: 30px;
+  padding-right: 20px;
+
+}
+
+.productcard h2 {
+  font-size: 1.3em;
+}
+
+.bordernone {
+  border: none;
 }
