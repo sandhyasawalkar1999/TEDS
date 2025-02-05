@@ -11,7 +11,7 @@
   padding: 20px 18px;
   background-color: rgb(206, 201, 201);
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .link {
@@ -89,7 +89,7 @@
 /* Header */
 
 .header1 {
-  margin: 30px 11rem;
+  margin: 30px 6rem;
 }
 
 .science1 {
@@ -137,7 +137,7 @@
   background-color: black;
   color: white;
   display: flex;
-  padding: 35px 8rem;
+  padding: 35px 2rem;
   margin: 0px 0px;
   align-items: center;
   text-align: center;
