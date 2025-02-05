@@ -116,15 +116,17 @@
 .cards {
   margin: 20px 0;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .card {
   border-right: 1px solid rgb(203, 200, 200);
-  padding: 10px 15px;
+  padding: 10px 12px;
 }
 
 .card img {
-  width: 275px;
+  width: 100%;
   height: 150px;
 }
 
@@ -232,6 +234,7 @@
 .videoes {
   display: flex;
   padding: 10px;
+  justify-content: space-evenly;
 }
 
 .videocard {
@@ -256,7 +259,7 @@
 
 .unlock p {
   color: 18gb(83, 82, 82);
-  font-size: 18px;
+  font-size: 17px;
   margin-top: 10px;
 }
 
@@ -270,4 +273,97 @@
 
 .unlock img {
   align-items: end;
+}
+
+/* ai */
+.ai {
+  display: flex;
+}
+
+.ai p {
+  font-size: 20px;
+  margin-left: 40vw;
+}
+
+.ai h1 {
+  font-size: 80px;
+}
+
+.ai a {
+  color: black;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+/* techology */
+.technology {
+  display: flex;
+}
+
+.technology1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 1px solid rgb(187, 184, 184);
+  padding-right: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.technology2 {
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.technology2 img {
+  width: 400px;
+  height: 200px;
+}
+
+.grayborder {
+  border-right: 1px solid rgb(184, 181, 181);
+}
+
+.TED-Ed p {
+  margin-left: 30vw;
+}
+
+.tedbanner img {
+  width: 100%;
+  height: 5%;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+/* trending */
+.trending {
+  padding: 10px;
+
+}
+
+.trendscard {
+  display: flex;
+  padding: 20px;
+  background-color: rgb(252, 250, 250);
+  margin: 10px;
+  width: 40vw;
+}
+
+.trendscard .number {
+  font-size: 50px;
+  font-weight: 400;
+  margin: 10px 20px;
+
+}
+
+.contendtrend {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
