@@ -468,3 +468,57 @@ h4 {
 .bordernone {
   border: none;
 }
+
+/* Newsletters  */
+.newsletter {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  /* text-align: center; */
+  padding: 40px;
+  display: flex;
+}
+
+.newsletter img {
+  width: 180px;
+  height: 150px;
+
+}
+
+.btn6 {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  padding: 15px 50px;
+}
+
+.newscard {
+  align-items: flex-start;
+  border-right: 1px solid white;
+  padding: 10px 20px;
+}
+
+.bordernone {
+  border: none;
+}
+
+.newsletters p {
+  font-size: 18px;
+}
+
+.newsletter input {
+  padding: 20px;
+  width: 25rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.newsletter a {
+  color: white;
+}
+
+.btn7 {
+  background-color: rgb(167, 166, 166);
+  color: black;
+  width: 13rem;
+  font-size: 16px;
+}
