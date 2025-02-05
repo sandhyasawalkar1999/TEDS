@@ -529,13 +529,12 @@ h4 {
 footer {
   background-color: black;
   color: white;
+
+
 }
 
-.footercontainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.footercontainer h1 {
+  margin-left: 13vw;
 
 }
 
@@ -545,6 +544,9 @@ footer {
 
 .links {
   display: flex;
+  justify-content: center;
+  padding: 10px;
+
 }
 
 .footerlink input {
@@ -553,9 +555,9 @@ footer {
 }
 
 .footerlink {
-  border: 2px solid red;
   margin: 10px;
   padding: 10px;
+  margin-top: 0;
 
 }
 
@@ -586,4 +588,24 @@ footer {
   width: 8rem;
   height: 3.8rem;
   border-left: none;
+}
+
+.sociallink {
+  display: flex;
+}
+
+.sociallink img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(174, 169, 169);
+  margin: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.appstore img {
+  width: 150px;
+  height: 80px;
+  border: 2px solid white;
+  margin: 10px;
 }
