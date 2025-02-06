@@ -604,8 +604,21 @@ footer {
 }
 
 .appstore img {
-  width: 150px;
-  height: 80px;
+  width: 120px;
+  height: 60px;
   border: 2px solid white;
   margin: 10px;
+  border-radius: 10px;
+}
+
+.lastlink {
+  gap: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastlink UL {
+  margin: 20PX;
+  padding: 10PX;
 }
