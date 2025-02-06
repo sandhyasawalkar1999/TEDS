@@ -618,7 +618,7 @@ footer {
   align-items: center;
 }
 
-.lastlink UL {
+.lastlink ul {
   margin: 20PX;
   padding: 10PX;
 }
